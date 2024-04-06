@@ -3,12 +3,13 @@ ln=input("Last Name:")
 ip=input("issue and problems :")
 pbl=input("project based problem:")
 e=input("Email:")
-c=input("Contact No:")
-s=input("Semester:")
-cn=input("Course Name")
-cc=input("Course Code:")
-ln=input("Course lead name:")
-i=input("Would you like to have any another course with same course lead")
-h=input("Overall rating of the course")
-g=input("We would like to hear if you have any comments/suggestions about the course and class.")
+c=input("contact:")
+s=input("semester:")
+cn=input("course name")
+cc=input("course code:")
+cln=input("Faculty name:")
+
+
+Sch=input("Enter School: ") #Ex:SoE,SoM,SoD,SoL
+time=input("Is your faculty come at time: ")#put answers in 1(Sometime) to 5(Always)
 

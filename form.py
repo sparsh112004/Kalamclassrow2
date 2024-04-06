@@ -20,3 +20,6 @@ material=int(input("The course materials helped me understand the subject matter
 skills=int(input("In this course, I learned skills or content that I consider valuable:\n '5' if strongly agree\n '4' if agree\n '3' if neutral\n '2' if disagree\n '1' if strongly disagree\n Your choice : "))
 knowledge=int(input("What would you say about the knowledge of the course lead:\n '5' if excellent\n '4' if good\n '3' if average\n '2' if bad\n '1' if very bad\n Your choice : "))
 overall=pace+material+skills+knowledge               
+which year did you take admission?
+print("2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023 , 2024 ")
+

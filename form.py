@@ -12,6 +12,7 @@ cln=input("Course lead name:")
 
 i=input("Would you like to have any another course with same course lead")
 h=input("Overall rating of the course")
+hh=input("The course was organised in a way that helped me to learn ")
 g=input("We would like to hear if you have any comments/suggestions about the course and class.")
 response = input("Does the instructor come punctually on time? (always/mostly/rarely/never): ")
 punctuality_level = response.lower()

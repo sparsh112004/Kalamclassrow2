@@ -9,7 +9,7 @@ s=input("semester:")
 cn=input("course name")
 cc=input("course code:")
 cln=input("Course lead name:")
-
+asa=input("What did you like the most about the course instructor ")
 i=input("Would you like to have any another course with same course lead")
 h=input("Overall rating of the course")
 g=input("We would like to hear if you have any comments/suggestions about the course and class.")

@@ -1,3 +1,5 @@
 a=input("Frist Name:")
 b=input("Last Name:")
+c=input("course name")
+c=input("course code:")
 c=input("Course lead name:")

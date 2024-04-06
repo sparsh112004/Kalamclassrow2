@@ -7,8 +7,13 @@ c=input("contact:")
 s=input("semester:")
 cn=input("course name")
 cc=input("course code:")
-ln=input("Course lead name:")
-i=input("would you like to have any another couse with same course lead")
-h=input("overall rating of the couse")
-g=input("We would like to hear if you have any comments/suggestions about the course and class.")
+cln=input("Course lead name:")
 
+# Ask the user about the instructor's punctuality
+response = input("Does the instructor come punctually on time? (always/mostly/rarely/never): ")
+
+# Save the user input to a variable
+punctuality_level = response.lower()
+
+# Print the user input
+print("Punctuality level of the instructor:", punctuality_level)

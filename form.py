@@ -1,19 +1,31 @@
-name=input("First Name:")
-last_name=input("Last Name:")
-email=input("Email:")
-contact=input("Contact:")
-semester=input("Semester:")
-course_name=input("Course name:")
-course_code=input("Course code:")
-course_lead=input("Course lead name:")
-i=input("Would you like to have any another course with same course lead:\nEnter '1' if yes\nEnter '2' if no\n")
-punctuality_level = response.lower()
-print("Punctuality level of the instructor:", punctuality_level)
-com=int(input("communication skills of the couse lead: \nEnter '5' if too fast\nEnter '4' if slightly fast\nEnter '3' if about right\nEnter '2' if lightly slow\nEnter '1' if too slow\n Your choice : "))
-pace=int(input("The pace at which material was covered was:\nEnter '5' if too fast\nEnter '4' if slightly fast\nEnter '3' if about right\nEnter '2' if lightly slow\nEnter '1' if too slow\n Your choice : "))
-material=int(input("The course materials helped me understand the subject matter:\nEnter '5' if you strongly agree\nEnter '4' if you agree\nEnter '3' if neutral\nEnter '2' if disagree\nEnter '1' if strongly disagree\n Your choice : "))
-skills=int(input("In this course, I learned skills or content that I consider valuable:\nEnter '5' if strongly agree\nEnter '4' if agree\nEnter '3' if neutral\nEnter '2' if disagree\nEnter '1' if strongly disagree\n Your choice : "))
-knowledge=int(input("What would you say about the knowledge of the course lead:\nEnter '5' if excellent\nEnter '4' if good\nEnter '3' if average\nEnter '2' if bad\nEnter '1' if very bad\n Your choice : "))
-h=input("Overall rating of the course: \n Enter '1'if Poor \n Enter '1'if Good \nEnter '2' if Very good \nEnter '3' if Excellent\n")response = input("Does the instructor come punctually on time? (always/mostly/rarely/never): ")
-overall=com+pace+material+skills+knowledge  
-g=input("We would like to hear if you have any comments/suggestions about the course and class.")
+name= input("Enter your Name: ")
+E_id= input("Enter your Enrollment ID: ")
+email= input("Enter your email ID: ")
+contact=int(input("Enter your contact number:" ))
+school=input("Enter your school in the University: ")
+C_name=input("Enter the course name: ")
+C_code=input("Enter the course code: ")
+C_lead=input("Enter your course lead: ")
+rate=int(input("Rate your couse lead from 1 to 10"))
+if rate<=5:
+    print("Poor")
+else:
+    print("Good")
+rate_=int(input("Rate your couse lead according to his delivering content"))
+if rate_<=5:
+    print("poor")
+else:
+    print("Good")
+add_=input("Add some instruction you want to add")
+punch=int(input("Rate their punchuality in the class"))
+if punch <=7:
+    print("poor")
+else:
+    print("Good")
+overall=((rate+rate_+punch)//3)*100
+if overall >=50:
+    print("Your feedback is positive to the course lead")
+else:
+    print("Oh! You are not satisfied with the course")
+print("Thank you for the feedback")
+

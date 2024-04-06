@@ -11,7 +11,7 @@ cc=input("course code:")
 cln=input("Course lead name:")
 
 i=input("Would you like to have any another course with same course lead")
-h=input("Overall rating of the course")
+h=input("Overall rating of the course:\n '5' if too good\n '4' if slightly good\n '3' if about right\n '2' if lightly good\n '1' if bad\n Your choice : ")
 g=input("We would like to hear if you have any comments/suggestions about the course and class.")
 response = input("Does the instructor come punctually on time? (always/mostly/rarely/never): ")
 punctuality_level = response.lower()

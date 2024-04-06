@@ -17,3 +17,4 @@ knowledge=int(input("What would you say about the knowledge of the course lead:\
 h=input("Overall rating of the course: \n Enter '1'if Poor \n Enter '1'if Good \nEnter '2' if Very good \nEnter '3' if Excellent\n")response = input("Does the instructor come punctually on time? (always/mostly/rarely/never): ")
 overall=com+pace+material+skills+knowledge  
 g=input("We would like to hear if you have any comments/suggestions about the course and class.")
+

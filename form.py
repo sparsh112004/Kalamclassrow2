@@ -17,4 +17,10 @@ knowledge=int(input("What would you say about the knowledge of the course lead:\
 h=input("Overall rating of the course: \n Enter '1'if Poor \n Enter '1'if Good \nEnter '2' if Very good \nEnter '3' if Excellent\n")response = input("Does the instructor come punctually on time? (always/mostly/rarely/never): ")
 overall=com+pace+material+skills+knowledge  
 g=input("We would like to hear if you have any comments/suggestions about the course and class.")
-
+#code for select option 
+print("Choices: 1. 2024, 2.2020, 3. 2018 4. 2026")
+choice=int(input("enter a number (1,2,3):")) 
+if choice ==1: print("2024")
+elif choice ==2: print("2020")
+elif choice ==3: print("2018")
+elif choice ==4: print("2026")

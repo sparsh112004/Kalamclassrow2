@@ -9,6 +9,6 @@ cn=input("Course Name")
 cc=input("Course Code:")
 ln=input("Course lead name:")
 i=input("Would you like to have any another course with same course lead")
-h=input("Overall rating of the couse")
+h=input("Overall rating of the course")
 g=input("We would like to hear if you have any comments/suggestions about the course and class.")
 
